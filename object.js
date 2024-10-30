@@ -46,3 +46,7 @@ myObj = {//this is calld using object literal
   let mojeed= new Person('mohammed','mojeed','kashimawo','26')
 
   console.log(mojeed.firstName)
+
+
+
+  //    LOOPS USING JAVASCRIPT
