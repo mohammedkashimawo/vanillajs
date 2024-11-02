@@ -79,3 +79,49 @@ switch(obs){
 
 
 }
+
+
+//thi  is only for the for loops
+
+let Arr=['tolu','shola','Aisha','bala','diva','ozohu','Fatimah','Zahara', 'mustapha']
+let obij ={
+  name:'mohammed',
+  Surname:'mojeed',
+  Age:'27',
+  occupation:'software engineer',
+  wife:'Fatimah'
+}
+
+for(let i=0;i<Arr.length; i++){  console.log(Arr[i])
+}
+
+
+
+//for.....in :-this loop is only used with objects, we use it to iterate around the properties of an 
+for(ab in obij){
+  //this means each of the properties of the object is now an ab..ie we no have a created array of the propertied of the obj
+
+console.log(obij[ab])//thisreturns thevalues ofthe property
+console.log(ab)//this returns the properties
+
+//for... in tooo can beused for arrays except that the  order of the outcome will be altered
+
+}
+
+//forEach()thisis used to run or execute a function for every element of an array
+
+//used only with array as. .....Array.forEach(obb)
+
+
+let ii;
+Arr.forEach(funct)
+
+function funct(item){
+console.log(item.toUpperCase())
+}
+
+
+//for ..of ...are used with only arrays...i mean with only arrays
+for(ac of Arr){
+  console.log(ac)
+}
