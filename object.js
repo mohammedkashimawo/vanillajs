@@ -124,4 +124,5 @@ console.log(item.toUpperCase())
 //for ..of ...are used with only arrays...i mean with only arrays
 for(ac of Arr){
   console.log(ac)
-}
+//
+ }
