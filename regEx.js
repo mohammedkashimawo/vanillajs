@@ -224,3 +224,10 @@ const aliceExcerpt =
   // Print the array of vowels for each word
   console.log(lodo);  // This will output an array of arrays, each containing vowels from a word
   
+  // Extract 123 from abc123xyz.
+
+  let laja =/^abc\d{3}xyz$/
+
+  // Extract google.com from https://www.google.com/search?q=regex
+  let bajana = /(?:https?:\/\/)?(?:www\.)?([^\/]+)/;
+  
